@@ -2,7 +2,7 @@
  * @Author: changjun anson1992@163.com
  * @Date: 2023-04-14 20:28:41
  * @LastEditors: changjun anson1992@163.com
- * @LastEditTime: 2023-10-20 20:34:21
+ * @LastEditTime: 2024-03-07 17:32:44
  * @FilePath: /i-template/src/utils/request-api/index.js
  * @Description: 基于axios的接口请求实现类
  */
@@ -73,7 +73,7 @@ class IAxios {
     // 示例项目接口校验码
     _conf.headers = {
       ..._conf.headers,
-      icode: '5F2F93B88CC0BAFC',
+      icode: 'F1355BC0F89AA66F',
     }
     // 处理token
     if (store.getters.token) {
